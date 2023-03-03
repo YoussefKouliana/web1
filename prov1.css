@@ -1,0 +1,171 @@
+*{
+    justify-content: center;
+    background: #b0bed7   
+}
+.name { 
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -100px;
+}
+
+.title {
+    font-family: 'Bangers', cursive;
+    font-size: 150px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+    }
+
+.container-column {
+
+    max-width: 100%;
+	display: flex;
+	flex-direction: row;
+    
+    
+
+}
+
+.container-column h2 {
+    font-size: 30px;
+    font-family: 'Noticia Text', serif;
+    cursor: pointer;
+    background-color: whitesmoke; 
+}
+
+article {
+    background-color: whitesmoke; 
+    border-radius: 20px 20px 0 0 ;
+    padding: 2%;
+    font-size: 20px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 10px 5px 20px;
+}
+
+.article-img { 
+    height: 30vh;
+    width: 50vh;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px;
+       
+}
+.column2 .article-img {
+    width: 70vh;
+}
+
+.column1 {
+	 width: 25%;
+}
+
+.column2 {
+	  width: 50%;
+}
+
+.column3 {
+	  width: 25%;
+}
+
+
+p {
+    font-family: 'Noticia Text', serif;
+    background-color: whitesmoke; 
+}
+
+
+/* css för mobileskärm */
+
+@media screen and (max-width: 480px) {
+    *{
+        padding: 0px;
+        
+        background: #b0bed7   
+    }
+    .name { 
+        font-family: 'Bangers', cursive;
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+    
+    .title {
+        font-family: 'Bangers', cursive;
+        font-size: 100px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+        
+        }
+    
+        .container-column {
+            
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            
+        }
+        
+.container-column h2 {
+    font-size: 30px;
+    font-family: 'Noticia Text', serif;
+    cursor: pointer;
+    background-color: whitesmoke; 
+}
+
+article {
+    background-color: whitesmoke; 
+    border-radius: 5% 5% 0 0 ;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 10% 5% 20%;
+    padding: 30px;
+    
+}
+
+.article-img { 
+    height: auto;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 2%;
+    box-shadow: 10% 5% 20%;
+    
+    
+}
+
+
+p {
+    font-family: 'Noticia Text', serif;
+    background-color: whitesmoke; 
+}
+
+.column1 {
+    
+    
+    width: 80%;
+    
+
+}
+
+.column2{
+    width: 80%;
+
+}
+
+.column3 {
+    width: 80%;
+
+}
+
+    
+  }
